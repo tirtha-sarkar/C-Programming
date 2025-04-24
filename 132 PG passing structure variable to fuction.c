@@ -17,12 +17,12 @@ void display(struct person p)
 int main()
 {
     struct person person1;
-    strcpy(person1.name ," Tirtha sarkar");
+    strcpy(person1.name ," sarkar");
     person1.age = 21;
     person1.salary = 21322;
     display(person1);
 
-    strcpy(person1.name ," Puja sarkar");
+    strcpy(person1.name ," sarkar");
     person1.age = 18;
     person1.salary = 0;
     display(person1);
