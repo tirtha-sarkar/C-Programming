@@ -17,7 +17,7 @@ void display(struct person p)
 int main()
 {
     struct person person1;
-    strcpy(person1.name ," sarkar");
+    strcpy(person1.name ," Tirtha sarkar");
     person1.age = 21;
     person1.salary = 21322;
     display(person1);
